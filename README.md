@@ -8,8 +8,8 @@
 
 
 ## Technologie
-* React
-* JavaScript
+* React v16.13.1
+* JavaScript 1.8
 
 ## Funkcjonalności
 
@@ -65,37 +65,14 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Code examples
+## Screenshots
 
-### Fragment odpowiadający za wyszukiwanie 
-` 
-const searching = (e) =>
-  {
-    if (e.key === "Enter") {
-      axios(apiurl + "&s=" + state.s).then(({ data }) => {
-        let effects = data.Search;
+![Example screenshot](https://i.imgur.com/NmTMTt9.jpg)
 
-        setState(prevState => {
-          return { ...prevState, effects: effects }
-        })
-      });
-    }
-    
-  }
-  `
-  
-  ### Fragment zwracający wynik aplikacji
-  `
-  return (
-    <div className="App">
-      <header>
-        <h2>movie collection</h2>
-      </header>
-      <main>
-        <Search handleInput={handleInput} searching={searching} />
-        <Effects effects={state.effects} openInfo={openInfo} />
-        {(typeof state.selected.Title != "undefined") ? <Info selected={state.selected} closeInfo={closeInfo} /> : false}
-      </main>
-    </div>
-  );
-  `
+![Example screenshot](https://i.imgur.com/Hujk6um.png)
+
+
+## Contact
+
+## Contact
+Created by [@flynerdpl] - feel free to contact me ((marek.wlazlo97@gmail.com))!
