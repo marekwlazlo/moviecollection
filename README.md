@@ -1,28 +1,29 @@
 # Movie Collection
-> Movie Collection to prosta aplikacja internetowa, która umożliwia wyszukiwanie filmów. Po wpisaniu frazy np. Hobbit, na stronie wyświetlą się wyniki. Po naciśnięciu na dany film, wyświetla się popup z informacji na jego temat. Aplikacja opiera się na API (http://www.omdbapi.com/)
+> Movie Collection is a simple web application through which you can search movies. After entering the phrase, for example Hobbit, the results will be displayed on the page. When you press to any film you will see popup with all information about the movie. It uses free version of API from (http://www.omdbapi.com/)
 
-## Spis treści
+## Table of contents
 
-* [Technologie](#technologie)
-* []()
+* [Technologies](#technologies)
+* [Features](#features)
+* [Setup](#setup)
+* [Screenshots](#screenshots)
+* [Status](#status)
+* [Contact](#contact)
 
 
-## Technologie
+## Technologies
 * React v16.13.1
 * JavaScript 1.8
 
-## Funkcjonalności
+## Features
 
-Aplikacja pozwala na wyszukanie filmów po podaniu frazy. Po kliknięciu w dany film zostajemy poinformowani o jego:
-* Pełnej nazwie
-* Dacie produkcji
-* Ocenie filmu na podstawie głosów ze strony IMDB
-* Oryginalnym plakacie
-* Opisie
+The application allows you to search for movies by entering a phrase. After clicking on a given movie we are informed about:
 
-## Status
-
-Project is finished, because I don't plan to add other functionalities.
+* Full name
+* Date of production
+* Film evaluation based on votes from IMDB
+* Original poster
+* Description
 
 ## Setup
 
@@ -71,8 +72,9 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ![Example screenshot](https://i.imgur.com/Hujk6um.png)
 
+## Status
+
+Project is finished, because I don't plan to add other functionalities.
 
 ## Contact
-
-## Contact
-Created by [@flynerdpl] - feel free to contact me ((marek.wlazlo97@gmail.com))!
+Created by Marek Wlazło - feel free to contact me marek.wlazlo97@gmail.com!
